@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #1976d2;
+  --secondary-color: #e57373;
+  --accent-yellow: #ffe082;
+  --card-bg: #495057;
+  --card-text-color: #f8f9fa;
+  --sidebar-bg: #e57373;
+  --sidebar-text-color: #f8f9fa;
+  --navbar-bg: #000000;
+  --navbar-text-color: #fff;
+  --body-bg: #f4f6f8;
+  --text-color: #333;
+
+  --mobile-breakpoint: 768px;
+  --drawer-width: 240px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body .MuiButton-root {
+  text-transform: none;
+  border-radius: 8px;
+}
+
+.page-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
