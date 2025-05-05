@@ -1,0 +1,50 @@
+.sidenav-drawer-temporary .MuiDrawer-paper,
+.sidenav-drawer-permanent .MuiDrawer-paper {
+  background-color: var(--sidebar-bg) !important;
+  color: var(--sidebar-text-color) !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.sidenav-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidenav-list-item-button {
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 24px !important;
+}
+
+.sidenav-link:hover .sidenav-list-item-button {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.sidenav-link-active .sidenav-list-item-button {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-left: 4px solid var(--accent-yellow);
+  padding-left: 20px !important;
+}
+
+.sidenav-link-active .sidenav-list-item-icon,
+.sidenav-link-active .sidenav-list-item-text {
+  color: var(--accent-yellow) !important;
+}
+
+.sidenav-list-item-icon {
+  min-width: 40px !important;
+  color: inherit !important;
+}
+
+.sidenav-list-item-text .MuiTypography-root {
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  color: inherit;
+}
+
+.MuiDivider-root {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
