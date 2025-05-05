@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# React CSS Portfolio - Shaharyar Shahid
+This is a personal portfolio website built using React, Material UI (MUI), and CSS, converted from an original HTML/CSS version
+
+## ScreenShots
+![Home Page - mobile View](images/homepage.png)
+![Projects Page - mobile View](images/projects.png)
+![Contacts Page - mobile View](images/contacts.png)
