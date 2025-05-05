@@ -1,0 +1,16 @@
+.education-container {
+    padding: 2rem;
+  }
+  
+  .education-title {
+    text-align: center;
+    margin-bottom: 1rem !important;
+    font-weight: bold !important;
+    color: var(--primary-color);
+  }
+  
+  .education-intro {
+      text-align: center;
+      margin-bottom: 2rem !important;
+      color: #555;
+  }
