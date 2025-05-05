@@ -1,0 +1,78 @@
+.contact-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 1rem !important;
+    font-weight: bold !important;
+    color: var(--primary-color);
+}
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 2.5rem !important;
+    color: #555;
+}
+
+.contact-form-paper {
+    padding: 2rem !important;
+    background-color: #ffffff !important;
+    border-radius: 12px !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+.contact-form-field .MuiOutlinedInput-root {
+    border-radius: 8px !important;
+}
+
+.contact-form-field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: var(--primary-color) !important;
+}
+
+.contact-form-field .MuiFormLabel-root.Mui-focused {
+    color: var(--primary-color) !important;
+}
+
+.contact-form-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--primary-color) !important;
+    border-width: 2px !important;
+}
+
+.contact-form-field .MuiFormHelperText-root {
+    font-size: 0.8rem !important;
+    margin-left: 8px !important;
+}
+
+.contact-submit-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem !important;
+}
+
+.contact-submit-button {
+    padding: 10px 30px !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out !important;
+}
+
+.contact-submit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.contact-submit-button:disabled {
+    background-color: grey !important;
+    cursor: not-allowed !important;
+}
+
+.contact-alert {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 8px !important;
+}
